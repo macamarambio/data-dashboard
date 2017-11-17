@@ -1,3 +1,25 @@
 /*
  * Estilos de tu proyecto
  */
+* {
+	margin: 0;
+	padding: 0:;
+}
+
+nav{
+	height: 10%;
+	text-align: center;
+	border-bottom: 1px solid #858484;
+}
+
+nav img {
+	margin: 10px;
+	width: 185px;
+	height: auto;
+	display: inline-block;
+}
+
+section {
+	background-color: #FCFBFB;
+	height: 800px;
+}
