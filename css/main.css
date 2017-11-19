@@ -27,6 +27,12 @@ section {
 	height: 800px;
 }
 
+.tabs ul li{
+	list-style: none;
+	padding: 10px;
+	text-decoration: none;
+}
+
 .menu {
 	background-color: #EBEBEB;
 	height: 450px;
@@ -45,9 +51,86 @@ section {
 .menu ul {
 	text-align: center;
 	margin top: 50px;
+	padding-top: 40px;
 }
 .menu ul li {
 	list-style: none;
 	line-height: 40px;
 }
 
+button {
+	background-color: silver;
+	padding: 10px;
+	margin-left: -50px;
+} 
+
+button:hover{
+	cursor: pointer;
+	background: orange;	
+}
+
+.menus1 {
+	display: inline-block;
+}
+
+.menus1 ul li {
+	display: block;
+	list-style: none;
+	background-color: #fff;
+}
+
+.menus1 .itemList li {
+	display: block;
+	list-style: none;
+	text-decoration: none;
+}
+
+.menus1 li {
+	padding: 5px;
+}
+
+.menus1 ul ul {
+	position: absolute;
+	width: auto;
+}
+
+.menus1 ul {
+	border-top: 10px
+}
+
+.menus1 li:hover {
+	background-color: silver;
+	cursor: pointer;
+}
+
+.submenu li {
+	display: block;
+}
+
+.menus2 .itemList li {
+	display: block;
+	list-style: none;
+	background-color: #fff;
+}
+
+.menus2 li {
+	padding: 5px;
+	display: inline-block;
+}
+
+.menus2 ul ul {
+	position: absolute;
+}
+
+.menus2 li:hover {
+	background-color: silver;
+	cursor: pointer;
+}
+
+.hide {
+	display: none;
+}
+
+.show {
+	display: block;
+}

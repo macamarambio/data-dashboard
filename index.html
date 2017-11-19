@@ -6,6 +6,7 @@
     <link rel="shortcut icon" type="image/x-icon" href= "favicon.ico">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/fontello.css">
   </head>
   <body>
     <header>
@@ -13,23 +14,105 @@
          <img src="assets/images/logo-laboratoria.svg" alt="logo-laboratoria">
       </nav>
     </header>
-    <section>
+    <!--Sección Perfil-->
+    <section class="tabs">
       <div class="menu">
         <img src="assets/images/Vale.png" alt="Vale-Smith">
         <h4>Valentina Smith</h4>
         <h6>Training Manager</h6>
-
         <ul>
-          <li>All Student</li>
-          <li>Teachers</li>
-          <li><i class="fa fa-plus-circle" aria-hidden="true"></i><span>Add Student</span></li>
-          <li><i class="fa fa-minus-circle" aria-hidden="true"></i><span>Remove Student</span></li>
-          <li><i class="fa fa-plus-circle" aria-hidden="true"></i><span> 
-          Add Sprint</span></li>
+          <li><button type="button" name="button" data-tabSeleccionado="Tab addstudent" class="tab"><i class="fa fa-plus-circle" aria-hidden="true"></i><span> Add Student</span></li>
+          <li><button type="button" name="button" data-tabSeleccionado="Tab removestudent" class="tab"><i class="fa fa-minus-circle" aria-hidden="true"></i><span> Remove Student</span></li>
+          <li><button type="button" name="button" data-tabSeleccionado="Tab sprint" class="tab"><i class="fa fa-plus-circle" aria-hidden="true"></i><span> Add Sprint</span></li>
         </ul>
+        <div class="menus1">
+          <ul>
+            <li class="submenu"><a class="primero">Overall</a>
+            <span class="icon-down-dir"></span>
+              <ul class="hide itemList">
+                <li>Sprint 1</li>
+                <li>Sprint 2</li>
+                <li>Sprint 3</li>
+                <li>Sprint 4</li>
+                <li>Sprint 5</li>
+                <li>Sprint 6</li>
+                <li>Sprint 7</li>
+              </ul>
+            </li>
+            <li class="submenu">Santiago 2017-02-am
+            <span class="icon-down-dir"></span>
+              <ul class="hide itemList">
+                <li>Santiago 2017-02-pm</li>
+                <li>Santiago 2017-01-am</li>
+                <li>Santiago 2017-02-pm</li>
+                <li>Santiago 2016-02-am</li>
+                <li>Santiago 2016-02-pm</li>
+                <li>Santiago 2016-01-am</li>
+                <li>Santiago 2016-01-pm</li>
+                <li>Santiago 2015-02-am</li>
+                <li>Santiago 2015-02-pm</li>
+                <li>Santiago 2015-01-am</li>
+                <li>Santiago 2015-01-pm</li>
+                <li>Santiago 2014-02-am</li>
+                <li>Santiago 2014-02-pm</li>
+                <li>Santiago 2014-01-am</li>
+                <li>Santiago 2014-01-pm</li>
+              </ul>
+            </li>
+            <li class="submenu">Overall
+            <span class="icon-down-dir"></span>
+              <ul class="hide itemList">
+                <li>Sprint 1</li>
+                <li>Sprint 2</li>
+                <li>Sprint 3</li>
+                <li>Sprint 4</li>
+                <li>Sprint 5</li>
+                <li>Sprint 6</li>
+                <li>Sprint 7</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
       </div>
-      
+      <div class="">
+        <article id="Add Student"></article>
+        <article id="Remove Student"></article>
+        <article id="Sprint"></article>
+      </div>
+
     </section>
+    <section class="menus2">
+    <ul>
+      <li class="submenu">Tech Skills
+      <span class="icon-down-dir"></span>
+        <ul class="hide itemList">
+          <li>HSE</li>
+        </ul>
+      </li>
+      <li class="submenu">Sprint 1
+      <span class="icon-down-dir"></span>
+        <ul class="hide itemList">
+         <li>Sprint 2</li>
+         <li>Sprint 3</li>
+         <li>Sprint 4</li>
+         <li>Sprint 5</li>
+         <li>Sprint 6</li>
+         <li>Sprint 7</li>
+        </ul>
+      </li>
+      <li class="submenu">Overall
+      <span class="icon-down-dir"></span>
+        <ul class="hide itemList">
+         <li>Unidad 1</li>
+         <li>Unidad 2</li>
+         <li>Unidad 3</li>
+         <li>Unidad 4</li>
+         <li>Unidad 5</li>
+        </ul>
+      </li>
+     </ul>
+    </section>
+
     <script src="https://use.fontawesome.com/964a466b3b.js"></script>
 		<!-- Base de datos -->
 		<script src="./js/data.js"></script>
