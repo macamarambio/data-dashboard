@@ -5,6 +5,9 @@
 	margin: 0;
 	padding: 0:;
 }
+body {
+	font-family: 'Roboto', sans-serif;
+}
 
 nav{
 	height: 10%;
@@ -23,3 +26,28 @@ section {
 	background-color: #FCFBFB;
 	height: 800px;
 }
+
+.menu {
+	background-color: #EBEBEB;
+	height: 450px;
+	width: 15%;
+	border-right: 1px solid #CECECE;
+	border-bottom: 1px solid #CECECE;
+	text-align: center;
+}
+
+.menu img {
+	margin-top: 5%;
+	width: 25%;
+	height: auto;
+}
+
+.menu ul {
+	text-align: center;
+	margin top: 50px;
+}
+.menu ul li {
+	list-style: none;
+	line-height: 40px;
+}
+
