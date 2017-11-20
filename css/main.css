@@ -3,12 +3,13 @@
  */
 * {
 	margin: 0;
-	padding: 0:;
+	padding: 0;
 }
 body {
 	font-family: 'Roboto', sans-serif;
 }
 
+/*SECCION NAV*/
 nav{
 	height: 10%;
 	text-align: center;
@@ -22,29 +23,29 @@ nav img {
 	display: inline-block;
 }
 
-section {
+/*SECCION PRINCIPAL*/
+.principal {
 	background-color: #FCFBFB;
-	height: 800px;
+	height: auto;
+	width: 100%;
 }
 
-.tabs ul li{
-	list-style: none;
-	padding: 10px;
-	text-decoration: none;
-}
-
+/*MENU PERFIL*/
 .menu {
+	float: left;
 	background-color: #EBEBEB;
 	height: 450px;
 	width: 15%;
+	margin-top: 0;
+	margin-right: 2.5%;
 	border-right: 1px solid #CECECE;
 	border-bottom: 1px solid #CECECE;
 	text-align: center;
 }
 
 .menu img {
-	margin-top: 5%;
-	width: 25%;
+	margin-top: 10%;
+	width: 30%;
 	height: auto;
 }
 
@@ -54,20 +55,82 @@ section {
 	padding-top: 40px;
 }
 .menu ul li {
+	margin-left: 25%;
+	margin-bottom: 5%;
+	text-align: left;
 	list-style: none;
 	line-height: 40px;
 }
 
-button {
-	background-color: silver;
-	padding: 10px;
-	margin-left: -50px;
-} 
-
-button:hover{
+.menu ul li:hover {
 	cursor: pointer;
-	background: orange;	
+	border-bottom: 2px solid #fec63d;
 }
+
+/*GRAFICO SUPERIOR*/
+.img-graphic {
+	display: inline-block;
+	width: 80%;
+	height: 400px;
+	margin-top: 50px;
+}
+.img-graphic img {
+	width: 31%;
+	height: 450px;
+	margin: 1%;
+	outline: 2px solid #dbdbdb;
+}
+
+/*GRAFICO TECH Y HSE*/
+/*menú desplegable*/
+
+.submenu li {
+	display: inline-block;
+}
+
+.menus2 .itemList li {
+	display: block;
+	list-style: none;
+	background-color: #fff;
+}
+
+.menus2 li {
+	padding: 5px;
+	display: inline-block;
+}
+
+.menus2 ul ul {
+	position: absolute;
+}
+
+.menus2 li:hover {
+	background-color: silver;
+	cursor: pointer;
+}
+
+/*Grafico HSE Y TECH*/
+.skills {
+	text-align: center;
+	background-color: #FFF;
+	width: 90%;
+	height: 40%;
+	margin: 2% 5%;
+}
+
+/* SATISFACCION DE LOS ESTUDIANTES*/
+
+.student-satisfaction {
+	text-align: center;
+	background-color: #FFF;
+	width: 90%
+	height: 40%;
+	margin: 2% 5%;
+}
+
+
+
+
+
 
 .menus1 {
 	display: inline-block;
@@ -97,35 +160,14 @@ button:hover{
 .menus1 ul {
 	border-top: 10px
 }
+li:hover {
+	cursor: pointer;
+}
 
 .menus1 li:hover {
 	background-color: silver;
-	cursor: pointer;
 }
 
-.submenu li {
-	display: block;
-}
-
-.menus2 .itemList li {
-	display: block;
-	list-style: none;
-	background-color: #fff;
-}
-
-.menus2 li {
-	padding: 5px;
-	display: inline-block;
-}
-
-.menus2 ul ul {
-	position: absolute;
-}
-
-.menus2 li:hover {
-	background-color: silver;
-	cursor: pointer;
-}
 
 .hide {
 	display: none;
@@ -134,3 +176,5 @@ button:hover{
 .show {
 	display: block;
 }
+
+

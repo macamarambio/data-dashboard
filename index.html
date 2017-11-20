@@ -1,123 +1,135 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Data Dashboard</title>
-    <link rel="shortcut icon" type="image/x-icon" href= "favicon.ico">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" type="text/css" href="css/fontello.css">
-  </head>
-  <body>
-    <header>
-      <nav>
-         <img src="assets/images/logo-laboratoria.svg" alt="logo-laboratoria">
-      </nav>
-    </header>
-    <!--Sección Perfil-->
-    <section class="tabs">
-      <div class="menu">
-        <img src="assets/images/Vale.png" alt="Vale-Smith">
-        <h4>Valentina Smith</h4>
-        <h6>Training Manager</h6>
-        <ul>
-          <li><button type="button" name="button" data-tabSeleccionado="Tab addstudent" class="tab"><i class="fa fa-plus-circle" aria-hidden="true"></i><span> Add Student</span></li>
-          <li><button type="button" name="button" data-tabSeleccionado="Tab removestudent" class="tab"><i class="fa fa-minus-circle" aria-hidden="true"></i><span> Remove Student</span></li>
-          <li><button type="button" name="button" data-tabSeleccionado="Tab sprint" class="tab"><i class="fa fa-plus-circle" aria-hidden="true"></i><span> Add Sprint</span></li>
-        </ul>
-        <div class="menus1">
-          <ul>
-            <li class="submenu"><a class="primero">Overall</a>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Data Dashboard</title>
+	<link rel="shortcut icon" type="image/x-icon" href= "favicon.ico">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/fontello.css">
+</head>
+<body>
+	<!-- SECCION NAV -->
+	<header>
+		<nav>
+			<img src="assets/images/logo-laboratoria.svg" alt="logo-laboratoria">
+		</nav>
+	</header>
+	<!-- SECCION PRINCIPAL -->
+	<section class="principal">
+		<!-- MENU PERFIL -->
+		<div class="menu">
+			<img src="assets/images/Vale.png" alt="Vale-Smith">
+			<h4>Valentina Smith</h4>
+			<h6>Training Manager</h6>
+			<ul>
+				<li>
+					<span>All Student</span>
+				</li>
+				<li>
+					<span>Teachers</span>
+				</li>
+				<li>
+					<span>Add Student</span>
+				</li>
+				<li>
+					<span>Remove Student</span>
+				</li>
+				<li>
+					<span>Add Sprint</span>
+				</li>
+			</ul>
+		</div>
+		<div class="menus2">
+			<li class="submenu">Santiago 2017-02-am
             <span class="icon-down-dir"></span>
-              <ul class="hide itemList">
-                <li>Sprint 1</li>
-                <li>Sprint 2</li>
-                <li>Sprint 3</li>
-                <li>Sprint 4</li>
-                <li>Sprint 5</li>
-                <li>Sprint 6</li>
-                <li>Sprint 7</li>
-              </ul>
-            </li>
-            <li class="submenu">Santiago 2017-02-am
-            <span class="icon-down-dir"></span>
-              <ul class="hide itemList">
-                <li>Santiago 2017-02-pm</li>
-                <li>Santiago 2017-01-am</li>
-                <li>Santiago 2017-02-pm</li>
-                <li>Santiago 2016-02-am</li>
-                <li>Santiago 2016-02-pm</li>
-                <li>Santiago 2016-01-am</li>
-                <li>Santiago 2016-01-pm</li>
-                <li>Santiago 2015-02-am</li>
-                <li>Santiago 2015-02-pm</li>
-                <li>Santiago 2015-01-am</li>
-                <li>Santiago 2015-01-pm</li>
-                <li>Santiago 2014-02-am</li>
-                <li>Santiago 2014-02-pm</li>
-                <li>Santiago 2014-01-am</li>
-                <li>Santiago 2014-01-pm</li>
-              </ul>
-            </li>
-            <li class="submenu">Overall
-            <span class="icon-down-dir"></span>
-              <ul class="hide itemList">
-                <li>Sprint 1</li>
-                <li>Sprint 2</li>
-                <li>Sprint 3</li>
-                <li>Sprint 4</li>
-                <li>Sprint 5</li>
-                <li>Sprint 6</li>
-                <li>Sprint 7</li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="">
-        <article id="Add Student"></article>
-        <article id="Remove Student"></article>
-        <article id="Sprint"></article>
-      </div>
+	            <ul class="hide itemList">
+		          <li>Santiago
+		          	<ul class="hide itemList">
+		          		<li class="submenu">2017
+		          			<ul class="hide itemList">
+		          				<li>am</li>
+		          				<li>pm</li>
+		          			</ul>
+		          		</li>
+		          		<li class="submenu">2016
+		          			<ul class="hide itemList">
+		          				<li>am</li>
+		          				<li>pm</li>
+		          			</ul>
+		          		</li>
+		          		<li class="submenu">2015
+		          			<ul class="hide itemList">
+		          				<li>am</li>
+		          				<li>pm</li>
+		          			</ul>
+		          		</li>
+		          		<li class="submenu">2014
+		          			<ul class="hide itemList">
+		          				<li>am</li>
+		          				<li>pm</li>
+		          			</ul>
+		          		</li>
+		          	</ul>
+		          </li>
+	            </ul>
+          </li>
+		</div>
+		<!-- GRAFICO SUPERIOR-->
+		<div class="img-graphic">
+			<img src="assets/images/1.png" alt="">
+			<img src="assets/images/2.png" alt="">
+			<img src="assets/images/3.png" alt="">
+		</div>
+		<!-- GRAFICO TECH Y HSE -->
+		<div class="skills">
+			<!-- menu dropdows -->
+		<div class="menus2">
+		      <ul>
+		        <li class="submenu">Tech Skills
+		          <span class="icon-down-dir"></span>
+		          <ul class="hide itemList">
+		            <li>HSE</li>
+		          </ul>
+		        </li>
+		        <li class="submenu">Sprint 1
+		          <span class="icon-down-dir"></span>
+		          <ul class="hide itemList">
+		           <li>Sprint 2</li>
+		           <li>Sprint 3</li>
+		           <li>Sprint 4</li>
+		           <li>Sprint 5</li>
+		           <li>Sprint 6</li>
+		           <li>Sprint 7</li>
+		         </ul>
+		       </li>
+		       <li class="submenu">Overall
+		        <span class="icon-down-dir"></span>
+		        <ul class="hide itemList">
+		         <li>Unidad 1</li>
+		         <li>Unidad 2</li>
+		         <li>Unidad 3</li>
+		         <li>Unidad 4</li>
+		         <li>Unidad 5</li>
+		       </ul>
+		     </li>
+		   </ul>
+		 </div>
+			<img src="assets/images/tech skills.png" alt="">
+		</div>
+		<!-- SATISFACCION DE LOS ESTUDIANTES -->
+		<div class="student-satisfaction">
+			<img src="assets/images/Captura de pantalla 2017-11-19 a la(s) 6.27.26 p.m..png" alt="">
+		</div>
+	</section>
 
-    </section>
-    <section class="menus2">
-    <ul>
-      <li class="submenu">Tech Skills
-      <span class="icon-down-dir"></span>
-        <ul class="hide itemList">
-          <li>HSE</li>
-        </ul>
-      </li>
-      <li class="submenu">Sprint 1
-      <span class="icon-down-dir"></span>
-        <ul class="hide itemList">
-         <li>Sprint 2</li>
-         <li>Sprint 3</li>
-         <li>Sprint 4</li>
-         <li>Sprint 5</li>
-         <li>Sprint 6</li>
-         <li>Sprint 7</li>
-        </ul>
-      </li>
-      <li class="submenu">Overall
-      <span class="icon-down-dir"></span>
-        <ul class="hide itemList">
-         <li>Unidad 1</li>
-         <li>Unidad 2</li>
-         <li>Unidad 3</li>
-         <li>Unidad 4</li>
-         <li>Unidad 5</li>
-        </ul>
-      </li>
-     </ul>
-    </section>
 
-    <script src="https://use.fontawesome.com/964a466b3b.js"></script>
-		<!-- Base de datos -->
-		<script src="./js/data.js"></script>
-		<!-- Aquí va tus archivos JS -->
-    <script src="./js/app.js"></script>
-    hola hola hola
-  </body>
+
+	<!-- enlace iconos -->
+	<script src="https://use.fontawesome.com/964a466b3b.js"></script>
+	 <!-- Base de datos -->
+	<script src="./js/data.js"></script>
+	 <!-- Aquí va tus archivos JS -->
+	<script src="./js/app.js"></script>
+</body>
 </html>

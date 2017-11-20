@@ -1,0 +1,17 @@
+/*Checkbox*/
+
+.student {
+
+}
+
+.teacher {
+
+}
+
+.jedi {
+
+}
+
+input [type = checkbox] :hover {
+	cursor: pointer;
+}
