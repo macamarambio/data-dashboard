@@ -35,7 +35,7 @@ checkStudent.addEventListener('click', function(){
 checkTeach.addEventListener('click', function(){
 	if (checkTeach.checked == true) {
 		imgGraphic.src = "assets/images/studentS5.png";
-	}else{
+	}xelse{
 		imgGraphic.src = "assets/images/studentS.png";
 	}
 });
@@ -48,6 +48,8 @@ checkJedi.addEventListener('click', function(){
 		imgGraphic.src = "assets/images/studentS.png";
 	}
 });
+
+
 
 console.log(data);
 
