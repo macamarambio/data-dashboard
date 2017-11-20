@@ -1,19 +1,29 @@
-/*
- * Estilos de tu proyecto
- */
+/*Estilos Generales*/ 
+
 * {
 	margin: 0;
 	padding: 0;
 }
 body {
 	font-family: 'Roboto', sans-serif;
+	background-color: #EF8FB8;
+	width: 100%;
+	height: auto;
+	outline: 1px solid green;
 }
 
+.uppercase {
+	text-transform: uppercase;
+}
 /*SECCION NAV*/
+div {
+	outline: 1px solid red;
+}
 nav{
 	height: 10%;
 	text-align: center;
 	border-bottom: 1px solid #858484;
+	background-color: #FFF;
 }
 
 nav img {
@@ -21,13 +31,6 @@ nav img {
 	width: 185px;
 	height: auto;
 	display: inline-block;
-}
-
-/*SECCION PRINCIPAL*/
-.principal {
-	background-color: #FCFBFB;
-	height: auto;
-	width: 100%;
 }
 
 /*MENU PERFIL*/
@@ -71,7 +74,7 @@ nav img {
 .img-graphic {
 	display: inline-block;
 	width: 80%;
-	height: 400px;
+	height: auto;
 	margin-top: 50px;
 }
 .img-graphic img {
@@ -82,8 +85,15 @@ nav img {
 }
 
 /*GRAFICO TECH Y HSE*/
+
 /*menú desplegable*/
 
+.menus2 {
+	font-family: 'Barlow Condensed', sans-serif;
+	font-size: 20px;
+	text-align: left;
+	margin-left: 2%;
+}
 .submenu li {
 	display: inline-block;
 }
@@ -95,6 +105,7 @@ nav img {
 }
 
 .menus2 li {
+	margin-top: 10px;
 	padding: 5px;
 	display: inline-block;
 }
@@ -104,69 +115,139 @@ nav img {
 }
 
 .menus2 li:hover {
-	background-color: silver;
+	background-color: #EBEBEB ;
 	cursor: pointer;
 }
+
 
 /*Grafico HSE Y TECH*/
 .skills {
 	text-align: center;
 	background-color: #FFF;
 	width: 90%;
-	height: 40%;
+	height: auto;
 	margin: 2% 5%;
+
+}
+
+.tech-hse {
+	margin-top: 2.5%; 
+	width: 900px;
+	height: auto;
+	outline: 2px solid green;
+}
+
+.techinfo {
+
 }
 
 /* SATISFACCION DE LOS ESTUDIANTES*/
 
 .student-satisfaction {
+	float: left;
 	text-align: center;
 	background-color: #FFF;
-	width: 90%
-	height: 40%;
+	width: 90%;
+	height: auto;
 	margin: 2% 5%;
+	padding-top: 5%;
+	outline: 2px solid #dbdbdb;
 }
 
-
-
-
-
-
-.menus1 {
+.img-student {
 	display: inline-block;
+	width: 400px;
+	height: 200px;
+	margin-right: 200px;
+	vertical-align: top;
+}
+.checkbox-graphic {
+	display: inline-block;
+	text-align:left;
+	vertical-align: top;
 }
 
-.menus1 ul li {
-	display: block;
-	list-style: none;
-	background-color: #fff;
+/*CHECKBOX GRAFICOS*/
+.checkbox {
+  padding-left: 20px;
+  margin-bottom: 5px;
+}
+.checkbox label {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  padding-left: 5px;
+}
+.checkbox label::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  left: 0;
+  margin-left: -20px;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+  background-color: #FFF;
+}
+.checkbox label::after {
+  display: inline-block;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 0;
+  top: 0;
+  margin-left: -20px;
+  padding-left: 3px;
+  padding-top: 1px;
+  font-size: 11px;
+  color: #FFF;
+  line-height: 1.4;
+}
+.checkbox input[type="checkbox"]:checked + label::before{
+	background-color: #fec63d;
+	border-color: #fec63d;
+}
+.checkbox input[type="checkbox"]:checked + label::after{
+  font-family: "FontAwesome";
+  content: "\f00c";
+}
+.checkbox-primary input[type="checkbox"]:checked + label::before{
+  background-color: #ff9f4b;
+  border-color: #ff9f4b;
+}
+.checkbox-primary input[type="checkbox"]:checked + label::after{
+  color: #fff;
+}
+.checkbox-success input[type="checkbox"]:checked + label::before{
+  background-color: #f85824;
+  border-color: #f85824;
+}
+.checkbox-success input[type="checkbox"]:checked + label::after{
+  color: #fff;
+}
+input[type="checkbox"].styled:checked + label:after{
+  font-family: 'FontAwesome';
+  content: "\f00c";
+  padding-left: 4px;
+  padding-top: 2px;
+}
+input[type="checkbox"] .styled:checked + label::before{
+  color: #fff;
+}
+input[type="checkbox"] .styled:checked + label::after{
+  color: #fff;
 }
 
-.menus1 .itemList li {
-	display: block;
-	list-style: none;
-	text-decoration: none;
-}
 
-.menus1 li {
-	padding: 5px;
-}
 
-.menus1 ul ul {
-	position: absolute;
-	width: auto;
-}
 
-.menus1 ul {
-	border-top: 10px
-}
+
 li:hover {
 	cursor: pointer;
 }
 
-.menus1 li:hover {
-	background-color: silver;
-}
+
 
 
 .hide {

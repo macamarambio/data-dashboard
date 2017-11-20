@@ -1,17 +1,70 @@
-/*Checkbox*/
-
-.student {
-
+.checkbox {
+  padding-left: 20px;
+  margin-bottom: 5px;
 }
-
-.teacher {
-
+.checkbox label {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  padding-left: 5px;
 }
-
-.jedi {
-
+.checkbox label::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  left: 0;
+  margin-left: -20px;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+  background-color: #FFF;
 }
-
-input [type = checkbox] :hover {
-	cursor: pointer;
+.checkbox label::after {
+  display: inline-block;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 0;
+  top: 0;
+  margin-left: -20px;
+  padding-left: 3px;
+  padding-top: 1px;
+  font-size: 11px;
+  color: #FFF;
+  line-height: 1.4;
+}
+.checkbox input[type="checkbox"]:checked + label::before{
+	background-color: #fec63d;
+	border-color: #fec63d;
+}
+.checkbox input[type="checkbox"]:checked + label::after{
+  font-family: "FontAwesome";
+  content: "\f00c";
+}
+.checkbox-primary input[type="checkbox"]:checked + label::before{
+  background-color: #f85824;
+  border-color: #f85824;
+}
+.checkbox-primary input[type="checkbox"]:checked + label::after{
+  color: #fff;
+}
+.checkbox-success input[type="checkbox"]:checked + label::before{
+  background-color: #ff9f4b;
+  border-color: #ff9f4b;
+}
+.checkbox-success input[type="checkbox"]:checked + label::after{
+  color: #fff;
+}
+input[type="checkbox"].styled:checked + label:after{
+  font-family: 'FontAwesome';
+  content: "\f00c";
+  padding-left: 4px;
+  padding-top: 2px;
+}
+input[type="checkbox"] .styled:checked + label::before{
+  color: #fff;
+}
+input[type="checkbox"] .styled:checked + label::after{
+  color: #fff;
 }

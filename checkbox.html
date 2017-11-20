@@ -6,14 +6,30 @@
     <link rel="stylesheet" href="checkbox.css">
 </head>
 <body>
-    <!-- Checkbox Graficos -->
-    <div>
-        <input type="checkbox" class="student">
-        Student Satisfaction <br>
-        <input type="checkbox" class="teacher">
-            Teacher Rating <br>
-        <input type="checkbox" class="jedi">
-            Jedi Master Rating <br>
+<!-- Checkbox Graficos -->
+<div>
+    <!-- Student Satisfaction -->
+    <div class="checkbox">
+        <input id="checkbox1" class="styled" type="checkbox">
+        <label for="checkbox1">
+            Student Satisfaction
+        </label>
     </div>
+    <!-- Teacher Rating -->
+    <div class="checkbox checkbox-primary">
+        <input id="checkbox2" class="styled" type="checkbox" checked>
+        <label for="checkbox2">
+            Teacher Rating
+        </label>
+    </div>
+    <!-- Jedi Master Rating -->
+    <div class="checkbox checkbox-success">
+        <input id="checkbox3" class="styled" type="checkbox">
+        <label for="checkbox3">
+            Jedi Master Rating
+        </label>
+    </div>
+</div>    
+    <script src="https://use.fontawesome.com/964a466b3b.js"></script>
 </body>
 </html>

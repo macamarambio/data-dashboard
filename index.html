@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Data Dashboard</title>
 	<link rel="shortcut icon" type="image/x-icon" href= "favicon.ico">
-	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed|Roboto" rel="stylesheet">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" type="text/css" href="css/fontello.css">
 </head>
@@ -40,96 +40,94 @@
 				</li>
 			</ul>
 		</div>
-		<div class="menus2">
-			<li class="submenu">Santiago 2017-02-am
-            <span class="icon-down-dir"></span>
-	            <ul class="hide itemList">
-		          <li>Santiago
-		          	<ul class="hide itemList">
-		          		<li class="submenu">2017
-		          			<ul class="hide itemList">
-		          				<li>am</li>
-		          				<li>pm</li>
-		          			</ul>
-		          		</li>
-		          		<li class="submenu">2016
-		          			<ul class="hide itemList">
-		          				<li>am</li>
-		          				<li>pm</li>
-		          			</ul>
-		          		</li>
-		          		<li class="submenu">2015
-		          			<ul class="hide itemList">
-		          				<li>am</li>
-		          				<li>pm</li>
-		          			</ul>
-		          		</li>
-		          		<li class="submenu">2014
-		          			<ul class="hide itemList">
-		          				<li>am</li>
-		          				<li>pm</li>
-		          			</ul>
-		          		</li>
-		          	</ul>
-		          </li>
-	            </ul>
-          </li>
-		</div>
+		
+
+
 		<!-- GRAFICO SUPERIOR-->
 		<div class="img-graphic">
 			<img src="assets/images/1.png" alt="">
 			<img src="assets/images/2.png" alt="">
 			<img src="assets/images/3.png" alt="">
 		</div>
+
+
 		<!-- GRAFICO TECH Y HSE -->
 		<div class="skills">
-			<!-- menu dropdows -->
-		<div class="menus2">
-		      <ul>
-		        <li class="submenu">Tech Skills
-		          <span class="icon-down-dir"></span>
-		          <ul class="hide itemList">
-		            <li>HSE</li>
-		          </ul>
-		        </li>
-		        <li class="submenu">Sprint 1
-		          <span class="icon-down-dir"></span>
-		          <ul class="hide itemList">
-		           <li>Sprint 2</li>
-		           <li>Sprint 3</li>
-		           <li>Sprint 4</li>
-		           <li>Sprint 5</li>
-		           <li>Sprint 6</li>
-		           <li>Sprint 7</li>
-		         </ul>
-		       </li>
-		       <li class="submenu">Overall
-		        <span class="icon-down-dir"></span>
-		        <ul class="hide itemList">
-		         <li>Unidad 1</li>
-		         <li>Unidad 2</li>
-		         <li>Unidad 3</li>
-		         <li>Unidad 4</li>
-		         <li>Unidad 5</li>
-		       </ul>
-		     </li>
-		   </ul>
-		 </div>
-			<img src="assets/images/tech skills.png" alt="">
+			<!-- menu dropdown -->
+			<div class="menus2">
+				<ul>
+					<li class="submenu uppercase">Tech Skills
+						<span class="icon-down-dir"></span>
+						<ul class="hide itemList uppercase">
+							<li>HSE</li>
+						</ul>
+					</li>
+					<li class="submenu">Sprint 1
+						<span class="icon-down-dir"></span>
+						<ul class="hide itemList">
+							<li>Sprint 2</li>
+							<li>Sprint 3</li>
+							<li>Sprint 4</li>
+							<li>Sprint 5</li>
+							<li>Sprint 6</li>
+							<li>Sprint 7</li>
+						</ul>
+					</li>
+					<li class="submenu">Overall
+						<span class="icon-down-dir"></span>
+						<ul class="hide itemList">
+							<li>Unidad 1</li>
+							<li>Unidad 2</li>
+							<li>Unidad 3</li>
+							<li>Unidad 4</li>
+							<li>Unidad 5</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<img class="tech-hse" src="assets/images/techSkills.png" alt="">
+			<img src="assets/images/techinfo1.png" alt="" class="techinfo">
+			<img src="assets/images/techinfo2.png" alt="" class="techinfo">
 		</div>
+
 		<!-- SATISFACCION DE LOS ESTUDIANTES -->
 		<div class="student-satisfaction">
-			<img src="assets/images/Captura de pantalla 2017-11-19 a la(s) 6.27.26 p.m..png" alt="">
-		</div>
+			<div class="img-student"><img src="assets/images/studentS.png" alt=""></div>
+			<!-- Checkbox Graficos -->
+			<div class="checkbox-graphic">
+				<!-- Student Satisfaction -->
+				<div class="checkbox">
+					<input id="checkbox1" class="styled" type="checkbox" checked>
+					<label for="checkbox1">
+						Student Satisfaction
+					</label>
+				</div>
+				<!-- Teacher Rating -->
+				<div class="checkbox checkbox-primary">
+					<input id="checkbox2" class="styled" type="checkbox" checked>
+					<label for="checkbox2">
+						Teacher Rating
+					</label>
+				</div>
+				<!-- Jedi Master Rating -->
+				<div class="checkbox checkbox-success">
+					<input id="checkbox3" class="styled" type="checkbox" checked>
+					<label for="checkbox3">
+						Jedi Master Rating
+					</label>
+				</div>
+			</div> 
+		</div> 
+
 	</section>
 
 
 
 	<!-- enlace iconos -->
 	<script src="https://use.fontawesome.com/964a466b3b.js"></script>
-	 <!-- Base de datos -->
+	<!-- Base de datos -->
 	<script src="./js/data.js"></script>
-	 <!-- Aquí va tus archivos JS -->
+	<!-- Aquí va tus archivos JS -->
 	<script src="./js/app.js"></script>
 </body>
 </html>
