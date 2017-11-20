@@ -128,13 +128,23 @@ nav img {
 }
 
 .tech-hse {
-	margin-top: 2.5%; 
-	width: 900px;
+	margin-top: 3%; 
+	margin-left: 90px;
+	margin-bottom: inherit;
+	width: 50%;
 	height: auto;
 }
 
-.techinfo {
+.techinfo1{
+    width: 11%;
+    margin-right: 20px;
+    margin-left: 60px;
+    padding-bottom: 200px;
+}
 
+.techinfo2{
+    width: 9%;
+    padding-bottom: 215px;
 }
 
 /* SATISFACCION DE LOS ESTUDIANTES*/
@@ -247,13 +257,11 @@ input[type="checkbox"] .styled:checked + label::after{
   color: #fff;
 }
 
-
-
-
-
 li:hover {
 	cursor: pointer;
 }
+
+
 
 
 
