@@ -25,7 +25,8 @@
 	- En esta sección es posible ver un listado de todas las estudiantes con su información personal y academica. (próximamente)
 	- También ver el listado de las profesoras con el detalle de su evaluación. (próximamente)
 	- Y además es posible agregar o remover estudiantes y agregar un nuevo sprint. 
-+ En la primera seccion de gráficos 
++ En la primera seccion de gráficos
+	-Lo encabezamos con información seleccionada que se requiere para ver detalladamente los gráficos, por ello creamos varias secciones, como lo es separándolos por sede, año, semestre e incluso por horario.
 	- se encuentra la información de la cantidad de estudiantes que ingresarón y las que han desertado(organizado por sprint).
 	- El porcentaje de alumnas que cumplen con el objetivo (70% aprobado). Organizado por sprint
 	- Net Promoter Score (NPS) promedio de los sprints cursados, aqui se puede ver la información general, y visualizar un detalle por sprint.
