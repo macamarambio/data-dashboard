@@ -81,6 +81,75 @@ nav img {
 	outline: 2px solid #dbdbdb;
 }
 
+/*MENU SEDES*/
+.menus3 {
+	font-family: 'Barlow Condensed', sans-serif;
+	font-size: 20px;
+}
+
+.submenu li {
+	display: inline-block;
+	text-align: center;
+}
+
+.menus3 .itemList li {
+	display: block;
+	list-style: none;
+	background-color: #fff;
+}
+
+.menus3 li {
+	margin-top: 10px;
+	padding: 5px;
+	padding-left: 10%;
+	display: inline-block;
+}
+
+.menus3 ul ul {
+	position: absolute;
+}
+
+.menus3 li:hover {
+	background-color: #EBEBEB ;
+	cursor: pointer;
+}
+
+/*BOTON POR SPRINT*/
+
+.botonn {
+	font-family: 'Barlow Condensed', sans-serif;
+	font-size: 20px;
+	text-align: left;
+    margin-left: 73%;
+    margin-top: 60px;
+    position: absolute;
+}
+
+.botonn li {
+	display: inline-block;
+}
+
+.botonn .itemList li {
+	display: block;
+	list-style: none;
+	background-color: #fff;
+}
+
+.botonn li {
+	margin-top: 10px;
+	padding: 5px;
+	display: inline-block;
+}
+
+.botonn ul ul {
+	position: absolute;
+}
+
+.botonn li:hover {
+	background-color: #EBEBEB ;
+	cursor: pointer;
+}
+
 /*GRAFICO TECH Y HSE*/
 
 /*menú desplegable*/
