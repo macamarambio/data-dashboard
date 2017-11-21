@@ -24,5 +24,8 @@
 
  :smiley:
 
+ Macarena Marambio 
+ Andrea Pérez 
+
 #### Data Dashboard Laboratoria versión `0.0.1` 
 
