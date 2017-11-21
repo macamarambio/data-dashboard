@@ -25,9 +25,18 @@ nav{
 
 nav img {
 	margin: 10px;
+	margin-left: 8%;
 	width: 185px;
 	height: auto;
 	display: inline-block;
+}
+
+.translate {
+	position: relative;
+	left: 35%;
+	top: -10px;
+	background-color: #fec63d;
+	color: #000;
 }
 
 /*MENU PERFIL*/
@@ -156,7 +165,7 @@ nav img {
 
 .menus2 {
 	font-family: 'Barlow Condensed', sans-serif;
-	font-size: 20px;
+	font-size: 25px;
 	text-align: left;
 	margin-left: 2%;
 }
@@ -193,11 +202,12 @@ nav img {
 	width: 90%;
 	height: auto;
 	margin: 2% 5%;
+	outline: 2px solid #dbdbdb;
 
 }
 
 .tech-hse {
-	margin-top: 3%; 
+	margin-top: 5%; 
 	margin-left: 90px;
 	margin-bottom: inherit;
 	width: 50%;
@@ -208,14 +218,22 @@ nav img {
     width: 11%;
     margin-right: 20px;
     margin-left: 60px;
-    padding-bottom: 200px;
+    padding-bottom: 230px;
 }
 
 .techinfo2{
-    width: 9%;
-    padding-bottom: 215px;
+    width: auto;
+    height: 100px;
+    padding-bottom: 240px;
 }
 
+.symbology{
+	position: relative;
+	left: 33%;
+	width: 200px;
+	margin-top: -15%;
+	margin-bottom: 2%;
+}
 /* SATISFACCION DE LOS ESTUDIANTES*/
 
 .student-satisfaction {
