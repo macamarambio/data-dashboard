@@ -88,15 +88,27 @@ var addStudent = document.getElementById('addStudent');
 addStudent.addEventListener('click', function(){
 	prompt('Add Student', 'Name Student');
 });
-
+/*Remove Student*/
 var removeStudent = document.getElementById('removeStudent');
 removeStudent.addEventListener('click',function(){
 	prompt('Remove Student', 'Name Student');
 });
-
+/*Add Sprintt*/
 var addSprint = document.getElementById('addSprint');
 addSprint.addEventListener('click', function(){
 	prompt('Add Sprint', 'Sprint');
 })
+/*All Student*/
+var allStudent = document.getElementById('allStudent');
+allStudent.addEventListener('click', function(){
+	alert('Coming Soon!!!');
+})
+/*Teacher*/
+var teacher = document.getElementById('teachers');
+teacher.addEventListener('click', function(){
+	alert('Coming Soon!!!');
+})
+
+
 console.log(data);
 
