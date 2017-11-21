@@ -76,5 +76,23 @@ checkJedi.addEventListener('change', function(){
 	2 --> studentS5
 	3 --> studentS6
 */
+
+/*Add Student*/
+
+var addStudent = document.getElementById('addStudent');
+
+addStudent.addEventListener('click', function(){
+	prompt('Add Student', 'Name Student');
+});
+
+var removeStudent = document.getElementById('removeStudent');
+removeStudent.addEventListener('click',function(){
+	prompt('Remove Student', 'Name Student');
+});
+
+var addSprint = document.getElementById('addSprint');
+addSprint.addEventListener('click', function(){
+	prompt('Add Sprint', 'Sprint');
+})
 console.log(data);
 
