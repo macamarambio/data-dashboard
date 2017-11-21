@@ -14,6 +14,24 @@ function showMenu() {
 		listMenu.classList.add('hide');
 	}
 }
+/*FUNCIONALIDAD MENU TECH / HSE*/
+var hse = document.getElementById('hse');
+var tech = document.getElementById('tech');
+var imgSkill = document.getElementById('imgTechHse');
+var skillInf1 = document.getElementById('skillinfo1');
+var skillInf2 = document.getElementById('skillinfo2');
+
+hse.addEventListener('click', function(){
+	imgSkill.src = "assets/images/hseSkills.png";
+	skillInf1.src = "assets/images/hseinfo1.png";
+	skillInf2.src = "assets/images/hseinfo2.png";
+});
+
+/*tech.addEventListener('click', function(){
+	imgSkill.src = "assets/images/techSkills.png";
+	skillInf1.src = "assets/images/techinfo1.png";
+	skillInf2.src = "assets/images/techinfo2.png";
+}); */
 
 /*CHECKBOX FUNCIONALIDAD GRAFICO*/
 /*Variables*/
